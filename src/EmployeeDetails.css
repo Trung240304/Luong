@@ -1,0 +1,96 @@
+.employee-details-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .employee-details-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-details-content h3 {
+    margin-bottom: 20px;
+  }
+  
+  .employee-details-content p {
+    margin-bottom: 10px;
+  }
+  
+  .btn-close {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-close:hover {
+    background-color: #e60000;
+  }
+/* EmployeeDetails.css */
+.employee-details-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .employee-details-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .salary-details {
+    margin-top: 20px;
+  }
+  
+  .salary-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .salary-table th, .salary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .salary-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .btn-close {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn-close:hover {
+    background-color: #e53935;
+  }
+    
